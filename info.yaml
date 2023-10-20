@@ -1,0 +1,11 @@
+codigo: 21079
+nome: Lógica e Teoria de Conjuntos
+ano_lectivo: 2023
+semestre: 1
+ano: 1
+docente: Gilda Ferreira
+tema:
+  - nome: Cálculo de Proposições: Linguagem
+    codigo: 1.1
+  - nome: Cálculo de Proposições: Semântica
+    codigo: 1.2
