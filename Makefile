@@ -2,9 +2,9 @@ SRC = af1-1/af1-1.tex
 DOCS = af1-1.pdf
 
 af1-1.pdf: af1-1/af1-1.tex
-	latexmk $(PREVIEW_CONTINUOUSLY) -use-make -pdf $< --auxdir=aux
+	latexmk $(PV) -use-make -pdf $< --auxdir=aux
 
 clean:
-	rm -rf aux
+	rm -rf aux ${DOCS}
 
-.PHONY: clean watch ${DOCS}
+.PHONY: clean watch

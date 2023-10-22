@@ -23,6 +23,8 @@
 	<\href{mailto:2200909@estudante.uab.pt}{2200909@estudante.uab.pt}>
 }
 
+\date{\today}
+
 \hypersetup{
 	pdfsubject = {Lógica e Teoria de Conjuntos},
 	pdftitle = {Actividade Formativa 1.1(Proposta de Resolução)},
@@ -33,17 +35,7 @@
 
 \makeindex
 
-\newcommand{\exercicio}[1]{
-	\section*{Exercício #1}
-	\phantomsection
-	\addcontentsline{toc}{section}{Exercício #1}
-}
-
-\newcommand{\alinea}[1]{
-	\subsection*{(#1)}
-	\phantomsection
-	\addcontentsline{toc}{subsection}{(#1)}
-}
+\input{../af-cmds.tex}
 
 \begin{document}
 \maketitle
@@ -52,6 +44,8 @@
 \addcontentsline{toc}{section}{Introdução}
 
 \paragraph{} Resolução dos exercícios de \cite[secção 1.1 Linguagem]{Edmundo2021}.
+
+\exercicio{1.1.3}
 
 \clearpage
 
